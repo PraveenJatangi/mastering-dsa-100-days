@@ -16,10 +16,7 @@ public class insertionSort{
              System.out.println("after sorting:"+ Arrays.toString(arr));
         }
     }
-
-    // public staic void 
-
-   public static void main(String[] args){
+    public static void main(String[] args){
     
          int[] arr={2,5,3,1,4};
         insertionSorting(arr);

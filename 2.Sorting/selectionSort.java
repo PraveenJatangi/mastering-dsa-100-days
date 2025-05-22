@@ -13,17 +13,11 @@ public class selectionSort{
             }
             int temp =arr[min];
             arr[min]=arr[i];
-            arr[i]=temp;
-
-            
-            
+            arr[i]=temp;         
         }
         
     }
-
-    // public staic void 
-
-   public static void main(String[] args){
+  public static void main(String[] args){
     
          int[] arr={2,5,3,1,4};
          selectionSorting(arr);

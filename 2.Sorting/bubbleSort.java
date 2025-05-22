@@ -11,21 +11,13 @@ public class bubbleSort{
                     int temp = arr[j];
                     arr[j]=arr[j+1];
                     arr[j+1]=temp;
-                    swap=true;
-                }   
+                    swap=true;       }      }
+          
+                    if(!swap){  break;   }   
             }
-            if(!swap){
-                break;
-            }
-        
-       }
        System.out.println("Sorted array: " + Arrays.toString(arr));
-
     }
-   
-    // public staic void 
-
-   public static void main(String[] args){
+    public static void main(String[] args){
     
          int[] arr={2,5,3,1,4};
          bubbleSorting(arr);
