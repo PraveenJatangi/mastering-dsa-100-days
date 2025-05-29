@@ -2,7 +2,7 @@ import java.util.*;
 
 public class selectionSort{
 
-    public static void selectionSorting(int[] arr){
+    public static int[] selectionSorting(int[] arr){
         int len= arr.length;
         for (int i=0;i<len;i++){
             int min=i;
@@ -15,7 +15,7 @@ public class selectionSort{
             arr[min]=arr[i];
             arr[i]=temp;         
         }
-        
+        return arr;
     }
   public static void main(String[] args){
     
