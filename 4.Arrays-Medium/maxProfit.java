@@ -19,3 +19,4 @@ public class maxProfit {
         System.out.println(maxProfitVal(arr));
 }
 
+}

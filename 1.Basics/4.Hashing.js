@@ -26,7 +26,6 @@ const arr = [2, 3, 2, 5, 3, 4, 2];
 //Using Map()
 
 function countFrequenciess(arr){
-
     let freqMap= new Map();
 
     for( let num of arr){

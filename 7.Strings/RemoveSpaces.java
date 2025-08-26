@@ -1,6 +1,4 @@
-import java.util.*;
-public class sample {
-    
+public class RemoveSpaces {
      public static void removeSpacesFromString( String one) {
           StringBuilder result = new StringBuilder();
           for(char ch:one.toCharArray()){
@@ -15,3 +13,5 @@ public class sample {
 
     }
 }
+
+

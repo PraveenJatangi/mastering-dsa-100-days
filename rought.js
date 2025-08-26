@@ -24,6 +24,29 @@
 // console.log(a);
 // var a;
 
-let str="this is the good time";
 
-let len=str.length();
+// function counter(){
+//     let count=0;
+//     return function inner(){
+//         count++;
+//         console.log(count);
+//     }
+// }
+// const count=counter();
+// count();
+// count();
+
+function outer() {
+  let a = 1;
+  return {
+     increament: ()=>  a++,
+     decreament: ()=>a--
+      };
+}
+const fn = outer();
+console.log(fn.increament()); // ?
+console.log(fn.increament()); // ?
+console.log(fn.increament()); // ?
+console.log(fn.decreament()); // ?
+console.log(fn.decreament()); // ?
+
